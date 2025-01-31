@@ -1,5 +1,6 @@
 "use client";
 
+import "../styles/globals.css";
 import { useState, useEffect } from "react";
 import { format } from "date-fns";
 import { folders, emails, type Folder, type Email } from "../lib/mock-data";
